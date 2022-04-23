@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    color: #61470b;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+p {
+    color: #212529;
+    font-weight: bold;
+}
+
+.head-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/Header.jpg");
+}
+
+.website-logo {
+    align-self: flex-start;
+}
+
+.head-section-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Abril Fatface";
+}
+
+.head-section-tag-line {
+    color: #f2be0f;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.head-content-container {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.head-button-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.main-button {
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 28px;
+    border-radius: 10px;
+    background-color: #f2be0f;
+}
+
+.main-button:hover {
+    background-color: #6e3816;
+    color: #ffffff;
+}
+
+.banner-container {
+    padding: 16px;
+    text-align: center;
+    background-color: #6e3816;
+}
+
+.banner {
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+
+.why-choose-us-section {
+    background-color: #e0c9c9;
+}
+
+.why-choose-us-title {
+    color: #792300;
+    text-align: center;
+    font-weight: 600;
+}
+
+.client-word-section {
+    margin-top: 75px;
+    background-color: #f9f2ea;
+}
+
+.relative-button {
+    margin: auto;
+    display: block;
+    position: relative;
+    border: none;
+}
+
+.relative-top-position {
+    bottom: 22px;
+}
+
+.relative-bottom-position {
+    top: 32px;
+}
+
+.designs-section {
+    margin-top: 75px;
+    text-align: center;
+    background-image: url('../images/Spaces-we-design.jpg');
+}
+
+.demo-image {
+    border-radius: 20px;
+}
+
+.video-section {
+    margin-top: 75px;
+    text-align: center;
+    background-color: #fcf9f4;
+}
+
+.packages-section {
+    margin-top: 75px;
+    text-align: center;
+    background-color: #e0dbd7;
+}
+
+.package-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 24px 16px 0 16px;
+    background-color: #f4f3f1;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.relative-bottom-position2 {
+    top: 22px;
+}
+
+.form-sub-container {
+    padding: 16px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 6px 0px #cccccc;
+}
+
+.form-button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 28px;
+    border-radius: 10px;
+    background-color: #6e3816;
+    color: #ffffff;
+}
+
+.form-button:hover {
+    color: #000000;
+    background-color: #f2be0f;
+}
+
+.aspect-ration {
+    aspect-ratio: 16/9;
+}
+
+.description {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+	.head-section{
+		background-image: url('../images/Header-b.jpg');
+}
+	
+    .head-section-title {
+        font-size: 60px;
+    }
+
+    .head-section-tag-line {
+        font-size: 28px;
+    }
+
+    .why-choose-us-section {
+        aspect-ratio: 16/9;
+        background-size: cover;
+        background-image: url('../images/Why-choose-us_new.gif');
+    }
+
+    .why-choose-us-cards-container {
+        width: 70%;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .head-section-title {
+        font-size: 74px;
+    }
+
+    .width-lg-25 {
+        width: 30%;
+    }
+}
